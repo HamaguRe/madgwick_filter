@@ -1,0 +1,9 @@
+[package]
+name = "madgwick_filter"
+version = "0.1.0"
+authors = ["HamaguRe <space-denpa.jp>"]
+edition = "2018"
+
+[dependencies]
+quaternion = {git = "https://github.com/HamaguRe/quaternion.git", rev = "9e42982941f9bdd6d61fbf7d021873340d9d2e39"}
+num-traits = "0.2.6"
